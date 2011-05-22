@@ -1,0 +1,17 @@
+				    SNAKESES
+		      (A SNAKE-like game made with curSES)
+				 Justin J. Meza
+
+On a *nix system, compile with
+
+    gcc -lncurses -o snakeses snakeses.c
+
+On a Windows system, change the line which reads
+
+    #undef WINDOWS
+
+to
+
+    #define WINDOWS
+
+and make sure you have wincurses.{c,h} (http://github.com/justinmeza/wincurses).
